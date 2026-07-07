@@ -1,0 +1,24 @@
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #102717;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabela th{ 
+    background: #1e4d2b;
+    color: #7CFF5A;
+    padding: 15px;
+}
+
+.tabela td{
+    padding: 15px;
+    text-align: center; 
+    border-bottom: 1px solid #1e4d2b;
+}
+
+.tabela tr:hover {
+    background-color: #173522;
+}

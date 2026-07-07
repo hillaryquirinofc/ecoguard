@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Educativo | EcoGuard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <!-- MENU LATERAL -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h1>EcoGuard</h1>
+            <p>Biodiversidade é nosso futuro</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index2.html">Unidades de Conservação</a></li>
+                <li><a href="index3.html">Espécies Ameaçadas</a></li>
+                <li><a href="index4.html">Rotas da Biopirataria</a></li>
+                <li><a href="index5.html">Dados e Estatísticas</a></li>
+                <li><a href="index6.html">Quiz Educativo</a></li>
+                <li><a href="index7.html">Sobre o Projeto</a></li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-content">
+
+        <h1>Quiz Educativo</h1>
+
+        <p class="descricao">
+            Teste seus conhecimentos sobre biodiversidade, biopirataria e
+            unidades de conservação através de questões inspiradas no estilo ENEM.
+        </p>
+
+        <div class="quiz-container">
+           <div class="quiz-card">
+
+    <h2>1. A biopirataria é caracterizada por:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        A comercialização legal de produtos agrícolas.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        A exploração ilegal de recursos biológicos e conhecimentos tradicionais.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        A criação de reservas ambientais.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        O reflorestamento de áreas degradadas.
+         </button>
+
+         <p class="resultado"></p>
+
+          </div>
+
+          <div class="quiz-card">
+
+    <h2>2. As Unidades de Conservação têm como principal objetivo:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Aumentar a exploração econômica das áreas protegidas.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Favorecer apenas atividades turísticas.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        Proteger ecossistemas e a biodiversidade.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Restringir completamente qualquer presença humana.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+        <div class="quiz-card">
+
+    <h2>3. O tráfico de animais silvestres contribui para:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        O aumento da biodiversidade local.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        A redução das populações naturais e o desequilíbrio ecológico.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        A recuperação dos ecossistemas.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        O controle biológico de espécies invasoras.
+    </button>
+
+    <p class="resultado"></p>
+
+</div> 
+
+        <div class="quiz-card">
+
+    <h2>4. A criação das Unidades de Conservação está relacionada ao conceito de:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Crescimento econômico ilimitado.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        Desenvolvimento sustentável.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Industrialização acelerada.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Urbanização intensiva.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+<div class="quiz-card">
+
+    <h2>5. O Brasil abriga aproximadamente:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        5% da biodiversidade mundial.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        10% da biodiversidade mundial.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        20% da biodiversidade mundial.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        50% da biodiversidade mundial.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+<div class="quiz-card">
+
+    <h2> 6. Qual destes biomas sofre forte pressão da expansão agrícola?</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Pantanal.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        Cerrado.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Pampa.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Zona Costeira.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+<div class="quiz-card">
+
+    <h2>7. A perda da biodiversidade pode provocar:</h2>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        Desequilíbrios ecológicos e perda de serviços ambientais.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Aumento da estabilidade dos ecossistemas.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Maior resistência das espécies ao desmatamento.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Redução da necessidade de conservação.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+<div class="quiz-card">
+
+    <h2>8. O SNUC é responsável por:</h2>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Fiscalizar exclusivamente crimes ambientais.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Controlar o comércio internacional de espécies.
+    </button>
+
+    <button data-correta="true"
+    onclick="verificarResposta(this, true)">
+        Organizar e regulamentar as Unidades de Conservação brasileiras.
+    </button>
+
+    <button data-correta="false"
+    onclick="verificarResposta(this, false)">
+        Administrar apenas os parques nacionais.
+    </button>
+
+    <p class="resultado"></p>
+
+</div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
