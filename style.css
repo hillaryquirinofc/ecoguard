@@ -367,3 +367,37 @@ footer {
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .sidebar ul li {
+        list-style: none;
+    }
+
+    .sidebar ul li a {
+        display: block;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+}
